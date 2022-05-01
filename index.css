@@ -51,12 +51,11 @@ body{
     height: fit-content;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), black);
     position: relative;
-    padding-left: 20px;
-    
 }
 
 .sec01 h3{
     color: white;
+    margin: 0px;
 }
 
 .sec01 h4{
