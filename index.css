@@ -58,9 +58,9 @@ body{
     margin: 0px;
 }
 
-.sec01 h4{
+h4{
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .sec01 p{
@@ -68,9 +68,24 @@ body{
     margin: 0px;
 }
 
+.maisfamosos{
+    max-height: 160px;
+    display: flex;
+    overflow: auto;
+}
+
+.maisfamosos::-webkit-scrollbar{
+    width: 0;
+}
+
+.album{
+    min-width: 340px;
+}
+
 .sec02{
     width: 100%;
     background-color: black;
-    height: 1000px;
+    height: 2000px;
     position: relative;
+    padding-top: 25px;
 }
