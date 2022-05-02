@@ -93,6 +93,9 @@ h4{
     position: relative;
     padding-top: 60px;
     overflow: hidden;
+    border-bottom: 1px dashed white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .musica{
@@ -124,7 +127,6 @@ h4{
     width: 95%;
     margin: auto;
     height: 50px;
-    border-top: 1px dashed white;
     text-align: center;
 }
 
