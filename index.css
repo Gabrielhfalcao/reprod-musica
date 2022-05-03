@@ -86,6 +86,11 @@ h4{
     border-radius: 5px;
 }
 
+#bloco2{
+    background-color: black;
+    height: fit-content;
+}
+
 .sec02{
     width: 100%;
     background-color: black;
