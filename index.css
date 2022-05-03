@@ -150,6 +150,6 @@ h4{
 .sec03{
     width: 100%;
     height: 1000px;
-    background-image: linear-gradient(180deg, black, gray);
+    background-image: linear-gradient(180deg, black, dimgray);
     position: relative;
 }
