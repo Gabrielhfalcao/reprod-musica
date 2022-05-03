@@ -1,6 +1,6 @@
 const divParaExpandir = document.querySelector("#bloco-para-expandir");
 
-const botao = document.querySelector("#crescer");
+const botao = document.querySelector("#bot-aument");
 
 let expandir = divParaExpandir.offsetHeight;
 
