@@ -89,6 +89,7 @@ h4{
 #bloco2{
     background-color: black;
     height: fit-content;
+    position: relative;
 }
 
 .sec02{
