@@ -144,4 +144,151 @@ h4{
     width: 100%;
     height: 1000px;
     background-image: linear-gradient(180deg, black, gray);
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed&display=swap');
+
+body{
+    background-color: black;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
+    background: linear-gradient(to bottom, transparent 0%, rgb(0, 0, 0) 85%), url(capas-titulo/capa-nirvana.png);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.capa-artista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.capa-artista p{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.capa-artista h1{
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.sec01{
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), black);
+    position: relative;
+}
+
+.sec01 h3{
+    color: white;
+    margin: 0px;
+}
+
+h4{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sec01 p{
+    color: white;
+    margin: 0px;
+}
+
+.maisfamosos{
+    max-height: 180px;
+    display: flex;
+    overflow: auto;
+}
+
+.maisfamosos::-webkit-scrollbar{
+    width: 0;
+}
+
+.album{
+    min-width: 340px;
+}
+
+.capas-sec01{
+    border-radius: 5px;
+}
+
+.sec02{
+    width: 100%;
+    background-color: black;
+    height: 620px;
+    position: relative;
+    padding-top: 60px;
+    overflow: hidden;
+    border-bottom: 1px dashed white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.musica{
+    width: 100%;
+    height: 90px;
+    padding-top: 5px;
+}
+
+.musica:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.p1{
+    padding-top: 5px;
+    color: white;
+    padding-left: 12px;
+}
+
+.p2{
+    color: white;
+    padding-left: 12px;
+}
+
+.capas-sec02{
+    border-radius: 5px;
+}
+
+.expandir{
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+}
+
+.expandir img{
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+.expandir img:hover{
+    filter: invert(75%);
+}
+
+.sec03{
+    width: 100%;
+    height: 1000px;
+    background-image: linear-gradient(180deg, black, gray);
+    position: relative;
 }
