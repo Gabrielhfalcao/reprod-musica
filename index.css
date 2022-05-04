@@ -163,6 +163,10 @@ h4{
     width: fit-content;
 }
 
+.cards-disco::-webkit-scrollbar{
+    width: 0;
+}
+
 .disco{
     width: fit-content;
     color: white;
