@@ -4,6 +4,11 @@ body{
     background-color: black;
 }
 
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+
 .topo{
     display: flex;
     justify-content: center;
@@ -245,4 +250,10 @@ h4{
 
 .disco{
     height: fit-content;
+}
+
+.disco h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
