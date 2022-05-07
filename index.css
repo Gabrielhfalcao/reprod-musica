@@ -163,10 +163,6 @@ h4{
     width: fit-content;
 }
 
-.cards-disco::-webkit-scrollbar{
-    width: 0;
-}
-
 .disco{
     width: fit-content;
     color: white;
@@ -194,8 +190,8 @@ h4{
 }
 
 .alice{
-    width: 190px;
-    height: 190px;
+    width: 180px;
+    height: 180px;
     border-radius: 100px;
     background-image: url(bandas-relacionadas/aliceinchains_facebook.webp);
     background-size: cover;
@@ -204,8 +200,8 @@ h4{
 }
 
 .pearl{
-    width: 190px;
-    height: 190px;
+    width: 180px;
+    height: 180px;
     border-radius: 100px;
     background-image: url(bandas-relacionadas/Pearl-Jam.webp);
     background-size: cover;
@@ -213,10 +209,9 @@ h4{
     background-repeat: no-repeat;
 }
 
-
 .sound{
-    width: 190px;
-    height: 190px;
+    width: 180px;
+    height: 180px;
     border-radius: 100px;
     background-image: url(bandas-relacionadas/soundgarden.webp);
     background-size: cover;
@@ -225,8 +220,8 @@ h4{
 }
 
 .smashing{
-    width: 190px;
-    height: 190px;
+    width: 180px;
+    height: 180px;
     border-radius: 100px;
     background-image: url(bandas-relacionadas/smashing.jpg);
     background-size: 150%;
@@ -235,11 +230,19 @@ h4{
 }
 
 .stone{
-    width: 190px;
-    height: 190px;
+    width: 180px;
+    height: 180px;
     border-radius: 100px;
     background-image: url(bandas-relacionadas/Stone.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.cards-disco::-webkit-scrollbar{
+    width: 0;
+}
+
+.disco{
+    height: fit-content;
 }
