@@ -257,3 +257,17 @@ h4{
     font-size: 20px;
     text-align: center;
 }
+
+#button-ver-mais1 a:link{
+    text-decoration: red;
+}
+#button-ver-mais2 a:link{
+    text-decoration: red;
+}
+#button-ver-mais3 a:link{
+    text-decoration: red;
+}
+
+.ver-mais:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
