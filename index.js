@@ -51,3 +51,6 @@ function mudarcor3(){
 function voltacor3(){
   button3.style.backgroundColor = 'black';
 }
+
+
+
